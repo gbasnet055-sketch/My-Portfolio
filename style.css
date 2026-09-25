@@ -1,0 +1,85 @@
+body{
+    background-color: #5f5d5d;
+    color: #fff;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #cac6c6;
+    color: #242424;
+    padding: 20px 0;
+    text-align: center;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    
+}
+nav ul{
+    list-style: none; /* no bullet points */
+    display: flex; /* horizontal layout */
+    gap: 20px; /* space between items */
+    
+}
+
+nav ul li a{ /* link styles */
+    color: #242424;
+    text-decoration: none; /* remove underline */
+    font-weight: bold;
+}
+
+nav ul li a:hover{ /* hover effect */ /*change color of the link when hovered over*/
+    color: #fff;
+    background-color: #242424;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* make it circular */
+}
+
+h1,h2{
+   color: #fff;
+}
+/* padding to increase the space between the text and the border */
+h1,h2{
+    border-bottom: 2px solid rgb(187, 182, 182);
+    width: fit-content;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    
+}
+
+main{
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1100px;
+   
+}
+
+body h1{
+    margin:2rem auto;
+}
+
+.About-container,
+.Education-container,
+.Skills-container,
+.Hobbies-container,
+.Projects-container,
+.Contact-container{
+   background-color: #101010;
+   border-radius: 10px; /*border smoothing*/
+   padding: 2rem;
+   box-shadow: 0 8px 17px rgb(63, 63, 63); 
+   margin-bottom: 2rem;
+}
+
+.About-container p,
+.profile-container{
+    justify-content: center;
+    display: flex;
+    padding: 3rem;
+}
