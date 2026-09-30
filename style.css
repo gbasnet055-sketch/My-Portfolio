@@ -81,5 +81,65 @@ body h1{
 .profile-container{
     justify-content: center;
     display: flex;
-    padding: 3rem;
+    padding: 2rem;
+    box-shadow: inset 0 0 10px #242424; /* inner shadow */
+    gap: 2rem; /* space between the image and the text */
+    border-radius: 10px; /* border smoothing */
+}
+
+.Projects-container article{
+    background-color: #202020;
+    border-radius: 10px; /*border smoothing*/
+    box-shadow: 0 10px 17px rgb(30, 30, 30);
+    padding: 10px;
+    margin-bottom: 2rem;
+    
+}
+
+article a{
+    color: #fff;
+    text-decoration: underline; 
+}
+
+article a:hover{
+    color: #656464;
+    text-decoration: underline; 
+}
+
+.Projects-container article:hover{
+    transform: translateY(-5px); /* move up by 5px */
+}
+
+.Skills-container div ul{
+    list-style: none; /* no bullet points */
+    display: flex; /* horizontal layout */
+    flex-wrap: wrap; /* wrap to next line if needed */
+    gap: 20px; /* space between items */
+}
+
+@media (max-width: 768px) {
+    .header-container{
+        flex-direction: column; /* stack vertically */
+        
+    }
+    nav ul{
+        flex-direction: column; /* stack vertically */
+        
+    }
+}
+
+.about-container p{
+    flex-direction: column; /* justify the text */
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-container{
+        flex-direction: column; /* stack vertically */
+        
+        }
+        .about-container p{
+            flex-direction: column; /* justify the text */
+            
+        }
 }
