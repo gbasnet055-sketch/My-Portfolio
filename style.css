@@ -141,24 +141,45 @@ article a:hover{
    SKILLS
    ========================= */
 
-.Skills-container dl {
-    background-color: #202020;
-    padding: 1.5rem;
+/* =========================
+   SKILLS
+   ========================= */
+
+.Skills-container {
+    background-color: #101010;
     border-radius: 10px;
-    box-shadow: inset 0 0 10px #242424;
+    padding: 2rem;
+    box-shadow: 0 10px 17px rgb(7, 7, 7);
+    margin-bottom: 2rem;
+}
+
+.Skills-container dl {
+    margin: 0;
 }
 
 .Skills-container dt {
+    background-color: #cac6c6;
+    color: #242424;
+    padding: 1rem;
     font-weight: bold;
-    color: #cac6c6;
-    margin-top: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0 0;
 }
 
 .Skills-container dd {
-    margin-left: 20px;
-    margin-top: 5px;
+    background-color: #202020;
+    color: #fff;
+    padding: 0.8rem 1rem 1rem 1rem;
+    margin: 0 0 1rem 0;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 10px 10px;
+    transition: all 0.3s ease;
 }
 
+.Skills-container dd:hover {
+    transform: translateX(8px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
 
 /* =========================
    HOBBIES
