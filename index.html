@@ -1,163 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Hello World!!</title>
 </head>
+
 <body>
+
     <h1>Welcome to my Portfolio</h1>
+
     <header>
         <div class="header-container">
+
             <div class="logo">
-        <img src="Images/logo.png" alt="My Logo" width="100">
+                <img src="images/logo.png" alt="My Logo" width="100">
+            </div>
+
+            <div class="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="#Home">HOME</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#Hobbies">Hobbies</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <form>
+                <input type="text" placeholder="Search">
+                <button type="submit">Search</button>
+                <br><br>
+            </form>
+
         </div>
-    <div class="nav-bar">
-    <nav>
-        <ul>
-        <li><a href="#Home" >HOME</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Education">Education</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#Hobbies">Hobbies</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Contact">Contact</a></li>
-    </ul>
-    </nav>
-    </div>
-    <form>
-        <input type="text" placeholder="Search"> <button type="submit">Search</button><br><br>
-        
-    </form><br>
-   </header>
+        <br>
+    </header>
+
     <main>
-    <section id="About">
-        <div class="About-container">
-    <h2>About me</h2>
-    <div class="profile-container">
-    <img src="Images/profile.png" alt="My Profile Picture" width="200">
-    <p>It's me Geeta Basnet,<br>
-        A BIT student studying at MIT(Model Institute of Technology). 
-        I enjoy creating websites and learning new technologies.</p>
-    </div>
-    </div>
-    </section>
-    <section id="Education">
-        <div class="Education-container">
-    <h2>Education</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Degree</th>
-                <th>Institution</th>
-                <th>GPA</th>
-                <th>Completion Date</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>secondary</td>
-                <td>Moon light Academy</td>
-                <td>3.90</td>
-                <td>2021</td>
-            </tr>
-            <tr>
-                <td>Higher Secondary Education</td>
-                <td>Herald International College</td>
-                <td>3.50</td>
-                <td>2023</td>
-            </tr>
-            <tr>
-                <td>Bachelor of Information Technology</td>
-                <td>Model Institute of Technology</td>
-                <td>-</td>
-                <td>Running</td>
-            </tr>
-        </tbody>
-    </table>
-    </div>
-    </section>
-   
-    <section id="Skills">
-        <div class="Skills-container">
-        <h2>Skills </h2>
-    <d>
-        <dt>Programming Languages:</dt>
-        <dd>HTML, C++,Java,Python,C </dd>
 
-        <dt>Web Development:</dt>
-        <dd>HTML, CSS, JavaScript</dd>
+        <section id="About">
+            <div class="About-container">
 
-        <dt>Database Management:</dt>
-        <dd>MySQL,Oracle,MongoDB</dd>
+                <h2>About me</h2>
 
-        <dt>Framework:</dt>
-        <dd>React, Node.js.spring boot, Angular</dd>
+                <div class="profile-container">
 
-        <dt>Tools:</dt>
-        <dd>Msword, Photoshop,Powerpoint, VS Code</dd>
-    </d>
-    </div>
-</section>
-<section id="Hobbies">
-    <div class="Hobbies-container">
-    <h2>Hobbies</h2>
-    <p>I enjoy reading books, learning new things, and exploring new places. 
-        I also love to travel and experience different cultures.</p>
-    </div>
-</section>        
-    <section id="Projects">
-        <div class="Projects-container">
-    <h2>projects</h2>
-    <article>
-    <h3> Personal Portfolio Website</h3>
-<p>
-    A simple personal website created using HTML and CSS to showcase
-    my profile, education, skills, projects and interests.
-</p>
-</article>
-<article>
-    <h3> Cloud Computing Project</h3>
-    <p>
-        A practical project based on cloud computing using AWS services
-        such as Amazon S3 and EC2.
-    </p>
-</article>
-</div>
-</section>
+                    <img src="images/profile.png" alt="My Profile Picture" width="200">
 
-<section id="Contact">
-    <div class="Contact-container">
-    <h2>Contact</h2>
-    
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone"><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-        <input type="submit" value="Submit">
-    </form>
-    </div>
-    </section>
-</main>
-<footer>
-    <h2>find me on</h2>
-    <a href="https://www.linkedin.com/" target="_blank"> <img src="Images/linkedin.png" alt="LinkedIn" width="50"></a>
-    <a href="https://www.instagram.com/" target="_blank"> <img src="Images/instagram.png" alt="Instagram" width="40"></a>
-    <a href="https://www.gmail.com/" target="_blank"> <img src="Images/gmail.png" alt="Gmail" width="65"></a>
-    <a href="https://www.github.com/" target="_blank"> <img src="Images/github.png" alt="GitHub" width="50"></a>
- &copy; 2026 Geeta Basnet. All rights reserved.
-</footer>
+                    <p>
+                        It's me Geeta Basnet,<br>
+                        A BIT student studying at MIT(Model Institute of Technology).
+                        I enjoy creating websites and learning new technologies.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="Education">
+
+            <div class="Education-container">
+
+                <h2>Education</h2>
+
+                <table border="1">
+
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>GPA</th>
+                            <th>Completion Date</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Secondary</td>
+                            <td>Moon light Academy</td>
+                            <td>3.90</td>
+                            <td>2021</td>
+                        </tr>
+
+                        <tr>
+                            <td>Higher Secondary Education</td>
+                            <td>Herald International College</td>
+                            <td>3.50</td>
+                            <td>2023</td>
+                        </tr>
+
+                        <tr>
+                            <td>Bachelor of Information Technology</td>
+                            <td>Model Institute of Technology</td>
+                            <td>-</td>
+                            <td>Running</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+
+        <section id="Skills">
+
+            <div class="Skills-container">
+
+                <h2>Skills</h2>
+
+                <dl>
+
+                    <dt>Programming Languages:</dt>
+                    <dd>HTML, C++, Java, Python, C</dd>
+
+                    <dt>Web Development:</dt>
+                    <dd>HTML, CSS, JavaScript</dd>
+
+                    <dt>Database Management:</dt>
+                    <dd>MySQL, Oracle, MongoDB</dd>
+
+                    <dt>Framework:</dt>
+                    <dd>React, Node.js, Spring Boot, Angular</dd>
+
+                    <dt>Tools:</dt>
+                    <dd>MS Word, Photoshop, PowerPoint, VS Code</dd>
+
+                </dl>
+
+            </div>
+
+        </section>
+
+
+        <section id="Hobbies">
+
+            <div class="Hobbies-container">
+
+                <h2>Hobbies</h2>
+
+                <p>
+                    I enjoy reading books, learning new things, and exploring new places.
+                    I also love to travel and experience different cultures.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section id="Projects">
+
+            <div class="Projects-container">
+
+                <h2>Projects</h2>
+
+                <article>
+
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        A simple personal website created using HTML and CSS to showcase
+                        my profile, education, skills, projects and interests.
+                    </p>
+
+                    <p>
+                        <a href="https://github.com/" target="_blank">
+                            View on GitHub
+                        </a>
+                    </p>
+
+                </article>
+
+
+                <article>
+
+                    <h3>Cloud Computing Project</h3>
+
+                    <p>
+                        A practical project based on cloud computing using AWS services
+                        such as Amazon S3 and EC2.
+                    </p>
+
+                    <p>
+                        <a href="https://github.com/" target="_blank">
+                            View on GitHub
+                        </a>
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="Contact">
+
+            <div class="Contact-container">
+
+                <h2>Contact</h2>
+
+                <form>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                    <br><br>
+
+                    <label for="message">Message:</label>
+                    <br>
+
+                    <textarea id="message" name="message" rows="3" cols="40" required></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Submit">
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- IMAGE SLIDER -->
+
+        <div class="slider">
+
+            <div class="slider-track">
+
+                <div class="slide">
+                    <img src="image1.jpg" alt="Image 1">
+                </div>
+
+                <div class="slide">
+                    <img src="image2.jpg" alt="Image 2">
+                </div>
+
+                <div class="slide">
+                    <img src="image3.jpg" alt="Image 3">
+                </div>
+
+                <div class="slide">
+                    <img src="image4.jpg" alt="Image 4">
+                </div>
+
+                <div class="slide">
+                    <img src="image5.jpg" alt="Image 5">
+                </div>
+
+            </div>
+
+
+            <button class="slider-button prev">&#10094;</button>
+
+            <button class="slider-button next">&#10095;</button>
+
+
+            <div class="slider-dots">
+
+                <span class="dot active"></span>
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+                <span class="dot"></span>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <h2>find me on</h2>
+
+        <a href="https://www.linkedin.com/" target="_blank">
+            <img src="images/linkedin.png" alt="linkedIn" width="50">
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="instagram" width="40">
+        </a>
+
+        <a href="https://www.gmail.com/" target="_blank">
+            <img src="images/gmail.png" alt="gmail" width="65">
+        </a>
+
+        <a href="https://www.github.com/" target="_blank">
+            <img src="images/github.png" alt="gitHub" width="50">
+        </a>
+
+        <br><br>
+
+        &copy; 2026 Geeta Basnet. All rights reserved.
+
+    </footer>
+
+
+    <script src="javascript.js"></script>
+
 </body>
+
 </html>
-
-
-
-
-
-
